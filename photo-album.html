@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7085eab5dd.js" crossorigin="anonymous"></script>
+    <title>Photo album</title>
+    <style>
+    body{
+        margin: 0;
+        padding:0;
+        font-family: 'Kalpurush', sans-serif;
+        background-color: rgb(185, 226, 190);
+    }
+        .album-heding{
+            position: relative;
+            display:flex;
+            text-align: center;
+            justify-content: center;
+        }
+        
+
+        .albumhead{
+            font-size:30px;
+            text-align: center;
+            padding-bottom:10px;
+            color: rgb(75, 70, 70);
+        }
+        .fa-home{
+             
+            width: 100px;
+            color: rgb(92, 87, 87);
+            position: relative;
+            top:25px;
+             
+        } 
+        .fa-home{
+            font-size: 30px; 
+        }
+        .photo-album{
+           
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+           
+        } 
+      
+        
+
+        .whole-frame{
+            width:300px;
+            height:200px;
+            border: 3px solid rgb(35, 75, 35);
+            border-radius:10px;
+            padding:10px;
+            margin:15px;
+            position:relative;
+            overflow: hidden; 
+            transition:0.5s ease ;
+            
+        }
+        .whole-frame > .photo-frame img{
+            width:300px;
+            height:200px;
+            border-radius:10px;
+            
+        }
+         .photo-detail{
+            display:none;
+            width: 300px;
+            height:100px;
+            position:absolute;
+            top:0;
+
+         }
+        .whole-frame:hover{
+            width:300px;
+            height:350px;
+        }
+        .whole-frame:hover .photo-detail{
+            display: block;
+            width: 300px;
+            height:100px;
+            padding-top:35px;
+            position:relative;
+            
+        }
+        .whole-frame:hover .photo-frame img{
+           transform: scale(1.1) 
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+   <div class="album-heding">
+  
+   <h1 class="albumhead"> বাইতুশ শরফ ফটো এ্যালবাম </h1>
+     <a href="index.html"><i class="fas fa-home "></i></a>
+    
+    </div>
+     
+    
+    <section class="photo-album">
+     <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh1.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+    <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh2.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+    <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh3.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+    <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh4.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+    <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+
+     <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh5.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+         
+          <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh6.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+
+     <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh7.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+
+     <div class="whole-frame">
+        <div class="photo-frame">
+             <img src="images/bsh8.jpg" alt="hujur">
+        </div>
+        <div class="photo-detail" >
+            <h4>Photo Title</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, modi!</p>
+        </div> 
+    </div>
+      
+    </section>
+        
+    
+    
+</body>
+</html>
